@@ -1,49 +1,42 @@
 public class string_buffer {
     public static void main(String[] args) {
-        String str = "hello";
-        StringBuffer sb = new StringBuffer("hello");
-
-        // add new string
-        sb.append(" world");
-        System.out.println(str);
+        
+        StringBuffer sb = new StringBuffer("abdce");
+        
+        // append
+        sb.append("null");
         System.out.println(sb);
 
         // length
         sb.length();
-        
-        // update char at index
-        sb.setCharAt(2, 'a');
+
+        // char at index
+        sb.charAt(2);
+
+        // set char
+        sb.setCharAt(0, 'c');
 
         // insert
-        sb.insert(2, 'a');
+        sb.insert(2,"null");
 
         // substring
-        sb.substring(1, 3);
         sb.substring(3);
+        sb.substring(3, 7);
 
-        // reverse
-        sb.reverse();
-
-        // delete char at index
+        // delete char
         sb.deleteCharAt(3);
 
         // delete substring
-        sb.delete(2, 6);
+        sb.delete(3, 6);
 
         // replace substring
-        sb.replace(4, 7, "abcdef");
+        sb.replace(3, 5, "null");
 
-        // equals function
-        sb = new StringBuffer("str");
-        StringBuffer sb1 = new StringBuffer("str");
-
-        System.out.println(sb.equals(sb1)); // checks reference
-
-        // convert string Buffer to string
+        // convert string buffer to string
         sb.toString();
 
-        // convert string to string Buffer
-        String str1 = "abc";
-        sb = new StringBuffer(str1);
+        // convert string to string buffer
+        String str = "hello";
+        sb = new StringBuffer(str);
     }
 }

@@ -4,8 +4,8 @@ public class good_substr {
     static boolean goodString(String str, int si, int ei){ // abcdef 
 
         while (si <= ei) {
-            if(str.charAt(si)!='a' || str.charAt(si)!='e' || str.charAt(si)!='i' || 
-                str.charAt(si)!='o' || str.charAt(si)!='u'){
+            if(str.charAt(si)!='a' && str.charAt(si)!='e' && str.charAt(si)!='i' && 
+                str.charAt(si)!='o' && str.charAt(si)!='u'){
                     return false;
             }
         }
