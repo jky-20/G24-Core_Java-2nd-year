@@ -5,7 +5,7 @@ class car {
     String color;
     int speed;
 
-    car(){  // override default constructor
+    car(){  // user made default constructor
         brand = "";
         color = "white";
         speed = 60;
