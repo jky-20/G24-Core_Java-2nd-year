@@ -1,4 +1,4 @@
-package Lec_8_Dec_12_functions;
+package Lec_08_Dec_12_functions;
 import java.util.Scanner;
 public class fibonacci {
     public static void main(String[] args) {

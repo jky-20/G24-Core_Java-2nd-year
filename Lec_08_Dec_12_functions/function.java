@@ -1,4 +1,4 @@
-package Lec_8_Dec_12_functions;
+package Lec_08_Dec_12_functions;
 public class function {
 
     static int temp = 10;

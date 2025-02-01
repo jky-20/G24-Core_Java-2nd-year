@@ -1,4 +1,4 @@
-package Lec_6_Dec_10_loops;
+package Lec_06_Dec_10_loops;
 public class continue_statement {
     public static void main(String[] args) {
         

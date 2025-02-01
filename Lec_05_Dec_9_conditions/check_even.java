@@ -1,4 +1,4 @@
-package Lec_5_Dec_9_conditions;
+package Lec_05_Dec_9_conditions;
 import java.util.Scanner;
 
 public class check_even{

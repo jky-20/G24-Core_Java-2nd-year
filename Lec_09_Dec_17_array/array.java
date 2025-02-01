@@ -1,4 +1,4 @@
-package Lec_9_Dec_17_array;
+package Lec_09_Dec_17_array;
 public class array {
     public static void main(String[] args) {
         

@@ -1,4 +1,4 @@
-package Lec_6_Dec_10_loops;
+package Lec_06_Dec_10_loops;
 import java.util.Scanner;
 public class prime {
     public static void main(String[] args) {

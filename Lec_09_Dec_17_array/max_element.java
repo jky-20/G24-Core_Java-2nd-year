@@ -1,4 +1,4 @@
-package Lec_9_Dec_17_array;
+package Lec_09_Dec_17_array;
 import java.util.Scanner;
 
 public class max_element {
