@@ -21,6 +21,10 @@ class motor_vehicle{
     private void func(){
         System.out.println("private function");
     }
+
+    protected void protected_func(){
+        System.out.println("protected function");
+    }
 }
 
 class car extends motor_vehicle{
@@ -61,6 +65,11 @@ class bike extends motor_vehicle{
 
     void start(){
         System.out.println("Starts by kick");
+    }
+
+    // scope of methods while overriding 
+    public void protected_func(){    // must have same or larger scope
+        System.out.println("protected function");
     }
 }
 
