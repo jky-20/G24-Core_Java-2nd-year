@@ -20,7 +20,7 @@ abstract class MotorVehicle{
 }
 
 abstract class Car extends MotorVehicle{
-    // class must be ebstract because 
+    // class must be abstract because 
     // it is not implementing abstract methods in parent class
 }
 
