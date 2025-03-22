@@ -11,11 +11,11 @@ class parent{
     }
 }
 class child1 extends parent{
-    @Override
-    void NonExceptionFunction() throws IOException{ 
-        // can't throw Checked Exception if parent class method doesn't throw any
-        System.out.println("throws exception");
-    }
+    // @Override
+    // void NonExceptionFunction() throws IOException{ 
+    //     // can't throw Checked Exception if parent class method doesn't throw any
+    //     System.out.println("throws exception");
+    // }
     @Override
     void ExceptionFunction() throws FileNotFoundException{
         System.out.println("Can throw subclass of thrown Exception");
