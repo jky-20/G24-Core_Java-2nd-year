@@ -1,0 +1,8 @@
+package Lec_56_April_24_FileHandling;
+public class test {
+    public static void main(String[] args) {
+        
+        // comments
+        System.out.println("Hello World");  // prints Hello World
+    }
+}
